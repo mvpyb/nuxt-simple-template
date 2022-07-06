@@ -19,10 +19,10 @@
       <el-button @click="play"> play </el-button>-->
 
       <!--测试鼠标跟随-->
-      <div v-if="showBall" ref="ball" class="ball" />
+      <!-- <div v-if="showBall" ref="ball" class="ball" />
       <div class="tween-max-section">
         <div ref="tween-max-item1" class="tween-max-item tween-max-item1" />
-      </div>
+      </div>-->
 
       <!-- aos animate test -->
       <div class="aos-all clearfix">
