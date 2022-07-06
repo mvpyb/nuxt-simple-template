@@ -1,0 +1,230 @@
+@charset "UTF-8";
+//@import "@/assets/css/variable/color.scss";
+
+
+/*************************************/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent
+}
+
+body {
+  line-height: 1
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+nav ul {
+  list-style: none
+}
+blockquote, q {
+  quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold
+}
+del {
+  text-decoration: line-through
+}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0
+}
+input, select {
+  vertical-align: middle
+}
+body {
+  font: 18px/27px 'Open Sans', Arial, sans-serif;
+}
+
+/*************************************/
+
+html {
+  font-family: "微软雅黑", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",  Arial, sans-serif;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: #333;
+  overflow-y: scroll;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #F4F5F6;
+  padding-right:0 !important;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+i {
+  font-style: italic;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+input {
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+  outline: 0;
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  background: inherit;
+  padding: 0;
+}
+
+video {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.09);
+  -webkit-border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 100px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: inherit;
+  color: #C0C4CC;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: inherit;
+  color: #C0C4CC;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: inherit;
+  color: #C0C4CC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-family: inherit;
+  color: #C0C4CC;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden-text, .text-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cont {
+  max-width: 1005px;
+  margin: 0 auto;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.width-1200 {
+  width: 1200px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.__nuxt-error-page .title {
+  font-size : 20px;
+}
