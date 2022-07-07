@@ -134,3 +134,11 @@ npm run lint -- --fix
 12. [babel-plugin-transform-remove-console](https://www.npmjs.com/package/babel-plugin-transform-remove-console)：用来移除项目中所有的 console 代码的插件
 
 
+
+## Donate
+
+如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 
+
+| 微信 | 支付宝 |
+| ------ | ------- |
+| [![](http://pic.yupoo.com/454539387/5475a039/f2bd7591.png)](bitcoin:)<br /></center> |[![](http://pic.yupoo.com/454539387/9c2f5db5/9f63742c.png)](bitcoin:)<br /></center> |
