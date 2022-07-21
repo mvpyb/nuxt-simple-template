@@ -133,6 +133,27 @@ npm run lint -- --fix
 11. [dayjs](https://www.npmjs.com/package/dayjs)：处理时间和日期的 JavaScript 库
 12. [babel-plugin-transform-remove-console](https://www.npmjs.com/package/babel-plugin-transform-remove-console)：用来移除项目中所有的 console 代码的插件
 
+## 其他项目
+
+- JavaScript 版: [Vite-Element-Admin（Github）](https://github.com/mvpyb/vite-element-admin) 
+- JavaScript 版: [Vite-Element-Admin（Gitee）](https://gitee.com/simmon_page/vite-element-admin-ts) 
+
+---
+
+- Typescript 版: [Vite-Element-Admin-ts（Github）](https://github.com/mvpyb/vite-element-admin-ts)
+- Typescript 版: [Vite-Element-Admin-ts（Gitee）](https://github.com/mvpyb/vite-element-admin-ts)
+
+---
+
+- React 版: [React-Ant-Admin（Github）](https://github.com/mvpyb/react-ant-admin)
+- React 版: [React-Ant-Admin（Gitee）](https://gitee.com/simmon_page/react-antd-admin)
+
+---
+
+- Vant Template: [Vite-Vant-Template（Github）](https://github.com/mvpyb/vite-vant-template)
+- Vant Template: [Vite-Vant-Template（Gitee）](https://gitee.com/simmon_page/vite-vant-template)
+
+---
 
 
 ## Donate
