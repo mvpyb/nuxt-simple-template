@@ -276,7 +276,7 @@ export default {
       // ssr 部署时可以使用此方式,spa 则使用全局注入
       script : [
         // { src : '/js/master/jquery-1.8.2.js', type : 'text/javascript', charset : 'utf-8' },
-        { src : '/js/master/masterslider.js', type : 'text/javascript', charset : 'utf-8' }
+        // { src : '/js/master/masterslider.js', type : 'text/javascript', charset : 'utf-8' }
       ]
     }
   }

@@ -184,8 +184,10 @@ export default {
   },
   async mounted() {
     this.$nextTick( () => {
+      console.log( 'client', process.client )
       if ( process.client ) {
         const Cute = window.Cute || Cute
+        console.log( 'Cute', Cute )
         var myslider = new Cute.Slider()
         myslider.setup( this.sliderWrapperId, this.sliderContainerId )
         this.slider = myslider
@@ -443,10 +445,10 @@ export default {
     return {
       // ssr 部署时可以使用此方式,spa 则使用全局注入
       script : [
-        { src : '/js/modernizr.js', type : 'text/javascript', charset : 'utf-8' },
-        { src : '/js/cute/cute.slider.js', type : 'text/javascript', charset : 'utf-8' },
-        { src : '/js/cute/cute.transitions.all.js', type : 'text/javascript', charset : 'utf-8' },
-        { src : '/js/respond.min.js', type : 'text/javascript', charset : 'utf-8' }
+        // { src : '/js/modernizr.js', type : 'text/javascript', charset : 'utf-8' },
+        // { src : '/js/cute/cute.slider.js', type : 'text/javascript', charset : 'utf-8' },
+        // { src : '/js/cute/cute.transitions.all.js', type : 'text/javascript', charset : 'utf-8' },
+        // { src : '/js/respond.min.js', type : 'text/javascript', charset : 'utf-8' }
       ]
     }
   }

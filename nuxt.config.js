@@ -175,12 +175,13 @@ export default {
       { innerHTML : 'This website requires JavaScript.' }
     ],
     script : [
-      { src : '/js/jquery-1.8.2.js', type : 'text/javascript', charset : 'utf-8' }
-      // { src : '/js/modernizr.js', type : 'text/javascript', charset : 'utf-8' },
-      // { src : '/js/cute/cute.slider.js', type : 'text/javascript', charset : 'utf-8' },
-      // { src : '/js/cute/cute.transitions.all.js', type : 'text/javascript', charset : 'utf-8' },
-      // { src : '/js/respond.min.js', type : 'text/javascript', charset : 'utf-8' },
-      // { src : '/script/skroller.min.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/js/jquery-1.8.2.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/js/modernizr.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/js/cute/cute.slider.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/js/cute/cute.transitions.all.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/js/respond.min.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/script/skroller.min.js', type : 'text/javascript', charset : 'utf-8' },
+      { src : '/js/master/masterslider.js', type : 'text/javascript', charset : 'utf-8' }
       // { src : '/script/flexible.js', type : 'text/javascript', charset : 'utf-8' }
       // { src : '/script/rem.js', type : 'text/javascript', charset : 'utf-8' }
     ]
