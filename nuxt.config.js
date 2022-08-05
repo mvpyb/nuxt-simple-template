@@ -40,10 +40,14 @@ export default {
     proxy : !isProduction
   },
 
+  // base : process.env.NODE_ENV === 'production' ? '/nuxt-simple-template/dist/' : '',
+  // publicPath : process.env.NODE_ENV === 'production' ? '/nuxt-simple-template/dist/' : '',
+  // buildDir : '/nuxt-simple-template/dist/',
+  // rootDir : '/nuxt-simple-template/dist/',
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build : {
-    base : process.env.NODE_ENV === 'production' ? '/nuxt-simple-template/dist/' : '',
     analyze : false,
+    publicPath : 'https://simmon_page.gitee.io/nuxt-simple-template/dist/',
     corejs : 'auto',
     // 生产环境抽离css
     extractCSS : isProduction,
