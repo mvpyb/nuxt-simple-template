@@ -4,6 +4,12 @@
 
 > 这是一个极简的 nuxt + element UI 的模板。它只包含了 Nuxt & Element & axios & iconfont & EsLint，这些搭建nuxt项目时必要的东西
 
+# 在线预览 
+
+    git ： 
+    git ： http://simmon_page.gitee.io/nuxt-simple-template/dist/
+
+
 ## 部署流程
 
 ### 打包前配置

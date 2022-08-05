@@ -42,6 +42,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build : {
+    base : process.env.NODE_ENV === 'production' ? '/nuxt-simple-template/dist/' : '',
     analyze : false,
     corejs : 'auto',
     // 生产环境抽离css
